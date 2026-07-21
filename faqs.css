@@ -1,0 +1,35 @@
+.faqs{
+   
+    padding: 2rem 3rem ;
+
+}
+.faqs>h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+
+}
+.faq{
+    width: 80vw;
+    padding: 0.7rem 0;
+}
+.faq>h1{
+    padding-bottom: 0.3rem;
+}
+
+/* media queries */
+@media screen and (max-width:450px) {
+    .home{
+        overflow: auto;
+    }
+    .faqs {
+        padding: 2rem 1.2rem;
+    }
+    .faq {
+        width: 95%;
+        padding: 0.7rem 0;
+    }
+    .faqs>h1 {
+        font-size: 1.5rem;
+    }
+    
+}
