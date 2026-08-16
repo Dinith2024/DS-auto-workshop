@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DS Auto Repair Workshop</title>
+    <link rel="stylesheet" href="header-footer.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="image/x-icon" href="/imgs/favIcon.svg" />
+    <!-- google fonts poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/100f11453f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="font-family: Poppins, sans-serif">
+    <div class="home">
+      <div class="burgorMenu">
+        <div class="burgorIconDiv" id="burgorIconDiv">
+          <i class="fa-solid fa-bars" id="burgorIcon"></i>
+        </div>
+        <div class="burgorMenuItems" id="burgorMenuItems">
+          <nav class="navbar">
+            <ul class="menu">
+              <li class="menuItem activeItem">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="menuItem">
+                <span>Services</span> <i class="fa-solid fa-caret-right"></i>
+                <ul class="menuSubItem">
+                  <li><a href="allServices.html">All Services</a></li>
+                  <li><a href="engineService.html">Engine Repair</a></li>
+                  <li><a href="AC repair.html">Auto A/C Repair</a></li>
+                  <li><a href="batteryService.html">Battery Service</a></li>
+                  <li><a href="oilChange.html">Oil Change</a></li>
+                  <li><a href="brakeRepair.html">Brake Service</a></li>
+                  <li><a href="wheelServices.html">Wheel Alignment</a></li>
+                </ul>
+              </li>
+              <li class="menuItem">
+                <span>Vehicles</span><i class="fa-solid fa-caret-right"></i>
+                <ul class="menuSubItem">
+                  <li><a href="toyotaService.html">toyota Service</a></li>
+                  <li><a href="suzukiService.html">Suzuki Service</a></li>
+                  <li><a href="hondaService.html">Honda Service</a></li>
+                  <li><a href="hyundaiService.html">Hyudai Service</a></li>
+                  <li><a href="bmwService.html">Bmw Service</a></li>
+                  <li><a href="AudiService.html">Audi Service</a></li>
+                  <li><a href="hummerService.html">Hummer Service</a></li>
+                </ul>
+              </li>
+              <li class="menuItem">
+                <span>About Us</span><i class="fa-solid fa-caret-right"></i>
+                <ul class="menuSubItem">
+                  <li><a href="ownersInfo.html">Owners Info</a></li>
+                  <li><a href="contact.html">Cotact Us</a></li>
+                </ul>
+              </li>
+              <li class="menuItem"><a href="faqs.html">FAQ's</a></li>
+              <li class="appointment menuItem">
+                <a href="requestAppointment.html">Request Appointment</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <header>
+        <div class="topHeader">
+          <div class="logo">
+            <!-- <span>DS</span><span>Auto Repair Workshop</span> -->
+            <a href="index.html"
+              ><img src="imgs/logo5.png" alt="logo" width="300px"
+            /></a>
+          </div>
+          <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:0763023535">076-3023535</a>
+          </div>
+          <div class="workingHrs">
+            <div class="workingHrsHeading">
+              <span>Working Hours</span><br />
+              <span><i class="fa-solid fa-clock"></i> 8:00AM-6:00PM</span
+              >&nbsp;<i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div class="workingDays">
+              <div class="day1">Mon <br /><span>8:00AM-6:00PM</span></div>
+              <div class="day2">Tue <br /><span>8:00AM-6:00PM</span></div>
+              <div class="day3">Wed <br /><span>8:00AM-6:00PM</span></div>
+              <div class="day4">Thu <br /><span>8:00AM-6:00PM</span></div>
+              <div class="day5">Fri <br /><span>Closed</span></div>
+              <div class="day6">Sat <br /><span>8:00AM-6:00PM</span></div>
+              <div class="day7">Sun <br /><span>8:00AM-6:00PM</span></div>
+            </div>
+          </div>
+          <div>
+            <ul class="socialLinks">
+              <li>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-regular fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav id="navbar">
+          <ul class="menu">
+            <span id="menuToggler" class="menuBtnDispNone"
+              ><i class="fa-solid fa-angles-up" id="menuIcon"></i
+            ></span>
+            <li class="menuItem activeItem"><a href="index.html">Home</a></li>
+            <li class="menuItem">
+              <a href="allServices.html">Services</a
+              ><i class="fa-solid fa-caret-down"></i>
+              <ul class="menuSubItem">
+                <li><a href="allServices.html">All Services</a></li>
+                <li><a href="engineService.html">Engine Repair</a></li>
+                <li><a href="AC repair.html">Auto A/C Repair</a></li>
+                <li><a href="batteryService.html">Battery Service</a></li>
+                <li><a href="oilChange.html">Oil Change</a></li>
+                <li><a href="brakeRepair.html">Brake Service</a></li>
+                <li><a href="wheelServices.html">Wheel Alignment</a></li>
+              </ul>
+            </li>
+            <li class="menuItem">
+              <a href="">Vehicles</a><i class="fa-solid fa-caret-down"></i>
+              <ul class="menuSubItem">
+                <li><a href="toyotaService.html">toyota Service</a></li>
+                <li><a href="suzukiService.html">Suzuki Service</a></li>
+                <li><a href="hondaService.html">Honda Service</a></li>
+                <li><a href="hyundaiService.html">Hyudai Service</a></li>
+                <li><a href="bmwService.html">Bmw Service</a></li>
+                <li><a href="AudiService.html">Audi Service</a></li>
+                <li><a href="hummerService.html">Hummer Service</a></li>
+              </ul>
+            </li>
+            <li class="menuItem">
+              <a href="">About Us</a><i class="fa-solid fa-caret-down"></i>
+              <ul class="menuSubItem">
+                <li><a href="ownersInfo.html">Owners Info</a></li>
+                <li><a href="contact.html">Cotact Us</a></li>
+              </ul>
+            </li>
+            <li class="menuItem"><a href="faqs.html">FAQ's</a></li>
+            <li class="appointment menuItem">
+              <a href="requestAppointment.html">Request Appointment</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="homeWelcome">
+        <div class="container">
+          <h1>
+            WELCOME to
+            <div class="shopName">
+              <span class="name">SAAR</span>
+              <span class="service"> Auto Repair Workshop!</span>
+            </div>
+          </h1>
+          <p class="welcomeDescription1">
+            Your ride matters. At DS Auto Repair Workshop, we're dedicated to
+            keeping you on the road with top-quality service. From routine
+            maintenance to precision repairs, our skilled technicians and
+            advanced equipment have you covered. Trust DS for all your
+            automotive needs.
+          </p>
+          <p class="welcomeDescription2">
+            Keep moving with DS Auto Repair Workshop. Trust our skilled
+            technicians and advanced equipment for top-quality service, from
+            maintenance to repairs. Your ride matters to us.
+          </p>
+        </div>
+      </section>
+      <section class="totallServices">
+        <div class="specialOffers">
+          <h1>Special Offers</h1>
+          <div class="offerImgs">
+            <div class="firstOffer">
+              <img src="imgs/oilChange.jpg" alt="oil change" />
+              <div class="offerDetail">
+                <span>FREE</span>
+                <h1>Oil Change</h1>
+                <p>
+                  Enjoy a free oil change with our expert technicians, providing
+                  top-notch service and peace of mind for your vehicle's
+                  maintenance needs.
+                </p>
+              </div>
+            </div>
+            <div class="secondOffer">
+              <img src="imgs/mechanic.jpg" alt="labor cost" />
+              <div class="offerDetail">
+                <span>10%</span>
+                <h1>Off Labor charge</h1>
+                <p>
+                  Get 10% off on labor charges for any auto repair service,
+                  saving you money while ensuring top-quality workmanship at our
+                  workshop.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="homeServicesContainer">
+          <div class="divider"><hr /></div>
+          <div class="header">
+            <h1>KEY SERVICES OFFERED</h1>
+            <a href="allServices.html"><span>View All Services</span></a>
+          </div>
+          <div class="serviceItems">
+            <div class="row">
+              <div class="serviceItem darkBg">
+                <img src="imgs/bg4.jpg" alt="engine repair" />
+                <a href="engineService.html">
+                  <h1>Engine Services</h1>
+                </a>
+              </div>
+              <div class="serviceItem serviceItems2">
+                <div class="darkBg">
+                  <img src="imgs/ac.jpg" alt="ac repair" />
+                  <a href="AC repair.html">
+                    <h1 class="smallPicService">A/C Services</h1>
+                  </a>
+                </div>
+                <div class="darkBg">
+                  <img src="imgs/carBattery.jpg" alt="battery repair" />
+                  <a href="batteryService.html">
+                    <h1 class="smallPicService">Battery Services</h1>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row row2">
+              <div class="serviceItem serviceItems2">
+                <div class="darkBg">
+                  <img src="imgs/oilChange.jpg" alt="oil change" />
+                  <a href="oilChange.html">
+                    <h1 class="smallPicService">Oil Change</h1>
+                  </a>
+                </div>
+                <div class="darkBg">
+                  <img src="imgs/carBrake.jpg" alt="brake service" />
+                  <a href="brakeRepair.html">
+                    <h1 class="smallPicService">Brake Service</h1>
+                  </a>
+                </div>
+              </div>
+              <div class="serviceItem darkBg">
+                <img src="imgs/bg5.jpg" alt="wheel alignment" />
+                <a href="wheelServices.html">
+                  <h1>Wheel Alignment</h1>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="carTips">
+        <div class="divider"><hr /></div>
+        <h1>Car Tips</h1>
+        <div class="tipsContainer">
+          <div class="tipItem tip1">
+            <h1>Regular maintenance is key!</h1>
+            <p>
+              Schedule oil changes, tire rotations, and fluid checks to keep
+              your car running smoothly.
+            </p>
+          </div>
+          <div class="tipItem tip2">
+            <h1>Stay safe!</h1>
+            <p>
+              On the road by checking your tire pressure monthly and replacing
+              worn-out tires promptly.
+            </p>
+          </div>
+          <div class="tipItem tip3">
+            <h1>Maximize fuel efficiency!</h1>
+            <p>
+              By maintaining a steady speed on highways and removing excess
+              weight from your vehicle.
+            </p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="upperFooter">
+          <div class="footerSection1">
+            <div class="logoText">
+              SAAR<span class="smallText"><br />AUTO REPAIR SERVICE</span>
+            </div>
+            <ul class="socialLinks">
+              <li>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-regular fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footerSection2">
+            <div class="address">
+              <i class="fa-solid fa-location-dot"></i
+              ><span class="footer2Hdng">Address</span><br />
+              <p>Beliatta, Hambanthota District, Southern Province.</p>
+            </div>
+            <div class="footerHrs">
+              <div class="">
+                <span
+                  ><i class="fa-solid fa-clock"></i
+                  ><span class="footer2Hdng">Working Hours</span></span
+                ><br />
+                <p>
+                  Sat-Thu | 8:00AM-6:00PM<br />
+                  <span>Closed on Friday</span>
+                </p>
+              </div>
+            </div>
+            <div class="">
+              <i class="fa-solid fa-phone"></i
+              ><span class="footer2Hdng">Contact Us</span><br />
+              <p><a href="tel:0763023535">076-3023535</a></p>
+            </div>
+          </div>
+          <div class="footerSection3">
+            <div>Quick Links</div>
+            <ul>
+              <li><a href="allServices.html">Services</a></li>
+              <li><a href="toyotaService.html">Vehicles</a></li>
+              <li><a href="ownersInfo.html">About Us</a></li>
+              <li><a href="faqs.html">FAQ's</a></li>
+            </ul>
+          </div>
+          <div class="footerSection4">
+            <iframe
+              src="https://maps.app.goo.gl/rQHiksgG6k6odMYD6"
+              width="300"
+              height="200"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <div class="lowerFooter">
+          <hr />
+          <div class="lowerFooterContent">
+            <div class="developersInfo">
+              <span>Developed by: </span
+              ><a
+                href="C:\xampp\htdocs\saar-auto-workshop\imgs\Dinith - CV.pdf"
+                target="_blank"
+                >Dinith</a>
+            </div>
+            <div class="copyRight">
+              &copy; DS auto workshop. All rights reserved.
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
