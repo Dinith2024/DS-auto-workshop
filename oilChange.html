@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DS Auto Repair Workshop</title>
+    <link rel="stylesheet" href="header-footer.css" />
+    <link rel="icon" type="image/x-icon" href="/imgs/favIcon.svg" />
+    <!-- google fonts poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="oilchange.css" />
+    <!-- font awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/100f11453f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="font-family: Poppins, sans-serif">
+    <div class="home">
+      <div class="burgorMenu">
+        <div class="burgorIconDiv" id="burgorIconDiv">
+          <i class="fa-solid fa-bars" id="burgorIcon"></i>
+        </div>
+        <div class="burgorMenuItems" id="burgorMenuItems">
+          <nav class="navbar">
+            <ul class="menu">
+              <li class="menuItem">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="menuItem activeItem">
+                <span>Services</span> <i class="fa-solid fa-caret-right"></i>
+                <ul class="menuSubItem">
+                  <li><a href="allServices.html">All Services</a></li>
+                  <li><a href="engineService.html">Engine Repair</a></li>
+                  <li><a href="AC repair.html">Auto A/C Repair</a></li>
+                  <li><a href="batteryService.html">Battery Service</a></li>
+                  <li class="activeItem">
+                    <a href="oilChange.html">Oil Change</a>
+                  </li>
+                  <li><a href="brakeRepair.html">Brake Service</a></li>
+                  <li><a href="wheelServices.html">Wheel Alignment</a></li>
+                </ul>
+              </li>
+              <li class="menuItem">
+                <span>Vehicles</span><i class="fa-solid fa-caret-right"></i>
+                <ul class="menuSubItem">
+                  <li><a href="toyotaService.html">toyota Service</a></li>
+                  <li><a href="suzukiService.html">Suzuki Service</a></li>
+                  <li><a href="hondaService.html">Honda Service</a></li>
+                  <li><a href="hyundaiService.html">Hyudai Service</a></li>
+                  <li><a href="bmwService.html">Bmw Service</a></li>
+                  <li><a href="AudiService.html">Audi Service</a></li>
+                  <li><a href="hummerService.html">Hummer Service</a></li>
+                </ul>
+              </li>
+              <li class="menuItem">
+                <span>About Us</span><i class="fa-solid fa-caret-right"></i>
+                <ul class="menuSubItem">
+                  <li><a href="ownersInfo.html">Owners Info</a></li>
+                  <li><a href="contact.html">Cotact Us</a></li>
+                </ul>
+              </li>
+              <li class="menuItem"><a href="faqs.html">FAQ's</a></li>
+              <li class="appointment menuItem">
+                <a href="requestAppointment.html">Request Appointment</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <header>
+        <div class="topHeader">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="imgs/logo5.png" alt="logo" width="300px"
+            /></a>
+          </div>
+          <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:0763023535">076-3023535</a>
+          </div>
+          <div class="workingHrs">
+            <div class="workingHrsHeading">
+              <span>Working Hours</span><br />
+              <span><i class="fa-solid fa-clock"></i> 8:00AM-6:00PM</span
+              >&nbsp;<i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div class="workingDays">
+              <div class="day1">Mon <br /><span>8:00AM-6:00PM</span></div>
+              <div class="day2">Tue <br /><span>8:00AM-6:00PM</span></div>
+              <div class="day3">Wed <br /><span>8:00AM-6:00PM</span></div>
+              <div class="day4">Thu <br /><span>8:00AM-6:00PM</span></div>
+              <div class="day5">Fri <br /><span>Closed</span></div>
+              <div class="day6">Sat <br /><span>8:00AM-6:00PM</span></div>
+              <div class="day7">Sun <br /><span>8:00AM-6:00PM</span></div>
+            </div>
+          </div>
+          <div>
+            <ul class="socialLinks">
+              <li>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-regular fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav id="navbar">
+          <ul class="menu">
+            <span id="menuToggler" class="menuBtnDispNone"
+              ><i class="fa-solid fa-angles-up" id="menuIcon"></i
+            ></span>
+            <li class="menuItem"><a href="index.html">Home</a></li>
+            <li class="menuItem activeItem">
+              <a href="allServices.html">Services</a
+              ><i class="fa-solid fa-caret-down"></i>
+              <ul class="menuSubItem">
+                <li><a href="allServices.html">All Services</a></li>
+                <li><a href="engineService.html">Engine Repair</a></li>
+                <li><a href="AC repair.html">Auto A/C Repair</a></li>
+                <li><a href="batteryService.html">Battery Service</a></li>
+                <li class="activeSubItem">
+                  <a href="oilChange.html">Oil Change</a>
+                </li>
+                <li><a href="brakeRepair.html">Brake Service</a></li>
+                <li><a href="wheelServices.html">Wheel Alignment</a></li>
+              </ul>
+            </li>
+            <li class="menuItem">
+              <a href="">Vehicles</a><i class="fa-solid fa-caret-down"></i>
+              <ul class="menuSubItem">
+                <li><a href="toyotaService.html">toyota Service</a></li>
+                <li><a href="suzukiService.html">Suzuki Service</a></li>
+                <li><a href="hondaService.html">Honda Service</a></li>
+                <li><a href="hyundaiService.html">Hyudai Service</a></li>
+                <li><a href="bmwService.html">Bmw Service</a></li>
+                <li><a href="AudiService.html">AudiService</a></li>
+                <li><a href="hummerService.html">Hummer Service</a></li>
+              </ul>
+            </li>
+            <li class="menuItem">
+              <a href="">About Us</a><i class="fa-solid fa-caret-down"></i>
+              <ul class="menuSubItem">
+                <li><a href="ownersInfo.html">Owners Info</a></li>
+                <li><a href="contact.html">Cotact Us</a></li>
+              </ul>
+            </li>
+            <li class="menuItem"><a href="faqs.html">FAQ's</a></li>
+            <li class="appointment menuItem">
+              <a href="requestAppointment.html">Request Appointment</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- start: your code goes here -->
+
+      <div class="oilServices">
+        <div><h1>OIL CHANGE IN DS</h1></div>
+        <div class="subOil"><h2>OIL CHANGE: A CRUCIAL SERVICE</h2></div>
+        <div class="subOil1"><h1>Prevention Is Key</h1></div>
+        <div class="sub1">
+          <p>
+            Preventive maintenance services are key to keeping your vehicle in
+            good mechanical condition. Specifically, regular oil changes are
+            crucial to keeping your transportation running reliably. Count on
+            the ASE-certified technicians at DS Auto Service for that and
+            other services for all makes and models. We’re here to suit your
+            convenience with extended hours of operation spanning sat-thu: 8am –
+            6pm. We’re easy to find, too, at DS. You can make an appointment
+            for an oil change online or by calling us at 076-3023535. DS Auto
+            Service looks forward to becoming your one-stop complete auto shop..
+            An efficiently working A/C system is a must-have during hot summer
+            days. If your car’s HVAC system isn’t functioning correctly, the
+            cabin can become a sweltering—and even dangerous—environment.
+            Fortunately, help is just a phone call away. The ASE-certified car
+            A/C repair mechanics at DS Auto Service have the tools and
+            training to help Chicago motorists beat the heat. We can repair and
+            maintain cooling systems in all makes and models, including domestic
+            and import vehicles. We also back our car A/C repairs with TechNet
+            24/24 and NAPA 24/24 warranties. This ensures you will keep your
+            cool wherever you go. Have questions? Our staff will gladly address
+            any concerns you might have. If your car’s A/C system is blowing
+            warm air, smells muggy, or makes strange noises, call our auto
+            repair shop today at 076-3023535 to book an appointment. We are
+            open Saturday through thursday, sat-thu: 8am – 6pm, and Closed
+            Friday.
+          </p>
+          <div class="image">
+            <img src="imgs/servicesImages/oilchange.png" />
+          </div>
+
+          <div class="sub2"><h1>The Details Of Oil Change</h1></div>
+          <div class="sub3">
+            <p>
+              We care about your transportation as much as you do, so we take
+              our role as your preventive maintenance partner seriously. Motor
+              oil grabs and suspends dirt, absorbs some of the heat from the
+              engine, and, of course, lubricates the moving metal parts. These
+              functions allow your engine to operate without undue damage.
+              Unfortunately, oil begins to break down as it ages, leaving it
+              less able to protect as effectively as it once did. Old oil can
+              lead to premature wear of internal engine components. Furthermore,
+              the aged lubricant may combine with dirt to form sludge. This can
+              result in internal clogs or, in severe cases, show on the external
+              engine surfaces. It’s necessary to change the filter with every
+              oil change, too. This disposable part keeps debris from
+              recirculating through the engine. Once the filter’s fibrous folds
+              are full, however, the dirty filter can allow dirt to seep by.
+              When you entrust your vehicle to us for an oil change, we’ll
+              attend to all the important details for you. We’ll follow the
+              manufacturer’s recommendations for the optimal viscosity/weight
+              for the model you drive. We’ll also advise you on recommendations
+              for oil type. These are conventional, full synthetic, synthetic
+              blend, or high mileage. Every oil change includes a complimentary
+              check of other fluids, brakes, and tirest.
+            </p>
+          </div>
+          <div class="image">
+            <img src="imgs/servicesImages/oilcange2.png" />
+          </div>
+          <div class="oilDis">
+            <h1>A Great Place For Service</h1>
+            <div class="oilsubDis">
+              <p>
+                DS Auto Service is a great place to get your oil changed. We
+                aim always to take good care of our customers, putting your
+                needs ahead of our profit margin. We center our work on our
+                values of loyalty, honesty, accountability, integrity, teamwork,
+                innovation, and passion. That translates into the highest level
+                of service for you and your automobile. For example, we provide
+                a digital inspection at no additional charge, and we’re glad to
+                take the time to explain your vehicle’s mechanical needs to you.
+                What’s more, when the time comes for repairs beyond the scope of
+                preventive maintenance, you can feel confident knowing that
+                you’ve selected the right facility. We’ve been a part of our
+                shared community’s fabric for more than 30 years and are a
+                member of the Automotive Service Association. Our work is
+                covered by a solid 24-month/24,000-mile nationwide warranty
+                through the NAPA and TechNet networks. Your local provider for
+                mechanical services, including oil changes, is DS Auto
+                Service.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- end -->
+      <footer>
+        <div class="upperFooter">
+          <div class="footerSection1">
+            <div class="logoText">
+              SAAR<span class="smallText"><br />AUTO REPAIR SERVICE</span>
+            </div>
+            <ul class="socialLinks">
+              <li>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-regular fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footerSection2">
+            <div class="address">
+              <i class="fa-solid fa-location-dot"></i
+              ><span class="footer2Hdng">Address</span><br />
+              <p>Beliatta, Hambanthota Districr, Southern Province.</p>
+            </div>
+            <div class="footerHrs">
+              <div class="">
+                <span
+                  ><i class="fa-solid fa-clock"></i
+                  ><span class="footer2Hdng">Working Hours</span></span
+                ><br />
+                <p>
+                  Sat-Thu | 8:00AM-6:00PM<br />
+                  <span>Closed on Friday</span>
+                </p>
+              </div>
+            </div>
+            <div class="address">
+              <i class="fa-solid fa-phone"></i
+              ><span class="footer2Hdng">Contact Us</span><br />
+              <p><a href="tel:0763023535">076-3023535</a></p>
+            </div>
+          </div>
+          <div class="footerSection3">
+            <div>Quick Links</div>
+            <ul>
+              <li><a href="allServices.html">Services</a></li>
+              <li><a href="toyotaService.html">Vehicles</a></li>
+              <li><a href="ownersInfo.html">About Us</a></li>
+              <li><a href="faqs.html">FAQ's</a></li>
+            </ul>
+          </div>
+          <div class="footerSection4">
+            <iframe
+              src="https://maps.app.goo.gl/rQHiksgG6k6odMYD6"
+              width="300"
+              height="200"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <div class="lowerFooter">
+          <hr />
+          <div class="lowerFooterContent">
+            <div class="developersInfo">
+              <span>Developed by: </span
+              ><a
+                href="C:\xampp\htdocs\saar-auto-workshop\imgs\Dinith - CV.pdf"
+                target="_blank"
+                >Dinith</a>
+            </div>
+            <div class="copyRight">
+              &copy; DS auto workshop. All rights reserved.
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
